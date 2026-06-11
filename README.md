@@ -92,3 +92,24 @@ The webcam window shows the predicted Azerbaijani sign word and confidence score
 - Dataset paths are configurable through CLI arguments.
 - The code handles Azerbaijani labels with UTF-8 JSON and CSV outputs.
 - Install dependencies before feature extraction, training, or webcam inference.
+- The dataset contains videos recorded at 35 FPS with both frontal and side-view angles for enhanced robustness.
+
+## Dataset, Funding & Citation
+
+This software utilizes the **Azerbaijani Sign Language Dataset (AzSLD)**, developed by researchers at **ADA University**.
+
+### Funding Acknowledgement
+
+The data collection was funded by the project *"Strengthening Data Analytics Research and Training Capacity through Establishment of dual Master of Science in Computer Science and Master of Science in Data Analytics (MSCS/DA) degree program at ADA University"*, supported by **BP** and the **Ministry of Education of the Republic of Azerbaijan**.
+
+### License
+
+The dataset is officially licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+### Academic Citation
+
+If you use this dataset or software in your work, please cite the following official paper:
+
+> Alishzade, N., Hasanov, J. (2025). AzSLD: Azerbaijani sign language dataset for fingerspelling, word, and sentence translation with baseline software, *Data in Brief*, Volume 58, 2025, 111230, ISSN 2352-3409, https://doi.org/10.1016/j.dib.2024.111230.
+
+Official Repository: [ADA-SITE-JML/azsl_dataloader](https://github.com/ADA-SITE-JML/azsl_dataloader)
